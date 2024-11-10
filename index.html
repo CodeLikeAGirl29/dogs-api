@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dog Glossary</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+    integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body>
+  <div class="container text-center">
+    <h1 class="my-4">Dog Glossary</h1>
+    <button id="button-random-dog" class="btn btn-primary mb-4">Show Random Dog</button>
+    <div class="form-group">
+      <label for="input-breed">Choose a breed:</label>
+      <input type="text" id="input-breed" class="form-control" placeholder="Enter a breed" />
+      <button id="button-show-breed" class="btn btn-primary mt-3">Show Breed</button>
+      <button id="button-show-sub-breed" class="btn btn-secondary mt-3">Show Sub-Breed</button>
+      <button id="button-show-all" class="btn btn-info mt-3">Show All Breeds</button>
+    </div>
+    <div id="content"></div>
+  </div>
+
+  <script src="./src/script.js"></script>
+</body>
+
+</html>
